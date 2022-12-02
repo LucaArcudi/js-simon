@@ -13,7 +13,7 @@ buttonElement.addEventListener("click", function () {
     
     buttonElement.innerHTML = `# ${counter}`;
 
-    let stop = true;
+    let stop = false;
 
     if (!stop){
         if (counter < 10){
